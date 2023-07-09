@@ -6,14 +6,19 @@ p {
   font-family: 'Jura', sans-serif;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 /* Navigation bar */
 
 /* General */
 .customNav {
   position:relative;
   width: 100%;
-  background: url("../images/transparency.png");
-  background-color: transparent !important;
+ /* background: url("../images/transparency.png"); */
+  background-color: rgb(219, 240, 245) !important;
   background-size: cover;
   z-index: 10;
 }
@@ -22,8 +27,8 @@ p {
   margin-right: 0 !important;
 }
 .navbar-brand img {
-  padding-right: 15px;
-  width: 65px;
+  /* padding-right: 2px;*/
+  width: 80px;
 }
 .nav-item {
   margin: 0px 15px;
@@ -31,9 +36,9 @@ p {
 
 /* Navigation dropdown menu */
 .dropdown-menu {
-  background: url("../images/transparency.png");
-  background-color: transparent !important;
+  background: url("../images/transparency.png"); 
   background-size: cover;
+  background-color: rgb(219, 240, 245)!important;
 }
 .dropdown-item:focus, .dropdown-item:hover {
     color: #16181b;
@@ -49,10 +54,13 @@ p {
   font-size: 15px;
 }
 
+body {
+  background-color: lightblue;
+}
 /* Jumbotron  */
 
-.rockBackground {
-  background-image: url(../images/rockOn_dark.jpg);
+.portfolioBackground {
+  background-image: url(./images/portfolioBg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: calc(100vh - 25px);
@@ -64,9 +72,9 @@ p {
 /* Jumbotron copy */
 .jumboCopy {
   width: 70%;
-  min-width: 500px;
-  max-width: 700px;
-  color: rgb(121, 162, 183);
+  min-width: fit-content;
+  max-width: fit-content;
+  color: rgb(9, 10, 10);
   text-align: center;
 }
 
