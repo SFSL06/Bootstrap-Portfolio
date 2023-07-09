@@ -10,7 +10,7 @@ p {
 
 /* General */
 .customNav {
-  position: fixed;
+  position:relative;
   width: 100%;
   background: url("../images/transparency.png");
   background-color: transparent !important;
@@ -38,18 +38,19 @@ p {
 .dropdown-item:focus, .dropdown-item:hover {
     color: #16181b;
     text-decoration: none;
-    background: black;
+    background: rgb(76, 76, 77);
 }
 
 /* Navigation links */
 .customNav a {
-  color: white !important;
+  color: rgb(14, 14, 14) !important;
 }
 .navCTA {
   font-size: 15px;
 }
 
 /* Jumbotron  */
+
 .rockBackground {
   background-image: url(../images/rockOn_dark.jpg);
   background-size: cover;
@@ -65,7 +66,7 @@ p {
   width: 70%;
   min-width: 500px;
   max-width: 700px;
-  color: white;
+  color: rgb(121, 162, 183);
   text-align: center;
 }
 
@@ -73,17 +74,19 @@ p {
 .dropdown-menu {
   left: -97px;
 }
-footer {
-  position: absolute;
+
+
+/* to make sure that all images have the same height */
+.card-img-top {
   width: 100%;
-  height: 60px;
-  line-height: 60px;
-  background-color: #f5f5f5;
-  margin-top: 50px;
-}
-.cardContainer {
-  margin-top: 20px;
+  height: 15vw;
+  object-fit: cover;
 }
 .card {
   margin: 0 auto;
+}
+
+.contact-section {
+  text-align: centre;
+  padding-top: 5rem;
 }
