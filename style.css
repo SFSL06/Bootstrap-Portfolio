@@ -4,6 +4,9 @@ h1, h2, h3 , h4, h5, h6 {
 }
 p {
   font-family: 'Jura', sans-serif;
+  text-align: left;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 img {
@@ -18,7 +21,7 @@ img {
   position:relative;
   width: 100%;
  /* background: url("../images/transparency.png"); */
-  background-color: rgb(219, 240, 245) !important;
+  background-color: rgba(238, 240, 240, 0.863) !important;
   background-size: cover;
   z-index: 10;
 }
@@ -52,10 +55,14 @@ img {
 }
 .navCTA {
   font-size: 15px;
+  
 }
-
-body {
+.btn {
   background-color: lightblue;
+  color: black;
+}
+body {
+  background-color: rgb(219, 240, 245);
 }
 /* Jumbotron  */
 
@@ -63,19 +70,35 @@ body {
   background-image: url(./images/portfolioBg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: calc(100vh - 25px);
+  height: calc(60vh - 25px);
   display: flex;
-  align-items: center;
-  justify-content: center;
+  max-width:100%;
+  word-wrap: break-word;
+  
+}
+
+.profilePic {
+  
+  display: flex;
+  align-content: flex-start;
+  align-items:baseline;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* Jumbotron copy */
 .jumboCopy {
+  display: flex;
   width: 70%;
+  min-width: 500px;
+  max-width: 700px;
   min-width: fit-content;
   max-width: fit-content;
   color: rgb(9, 10, 10);
-  text-align: center;
+  align-content: flex-start;
+  align-items: center;
+  max-width:100%;
+  word-wrap: break-word;
 }
 
 /* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
