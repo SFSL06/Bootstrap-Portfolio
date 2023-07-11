@@ -2,6 +2,8 @@
 
 Bootstrap-Portfolio. This is my work portfolio implemented using Bootstrap.
 
+![Project Screenshot](Images\HomePageDesktopView.jpg)
+
 ## Description
 
 How to Use the Project: This has information relevant to my work experience including my recent projects and links to my social 
