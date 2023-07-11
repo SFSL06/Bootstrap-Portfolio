@@ -79,12 +79,41 @@
         </div>
 
        <div class="cardContainer col-lg-12 col-md-12 col-sm-12">
-        <button class="btn btn-primary btn-sm" type="button">Show me how</button> 
+        <button class="btn btn-primary btn-sm" type="button" onclick="openForm()">Show me how</button> 
         </div>
       </div>
     </div>
    </div>
   <!-- End jumbotron -->
+
+ <!-- Pop Up Contact Me Form -->
+  <div class="form-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+      <h1>Contact Me</h1>
+
+      <label for="Name"><b>Name</b></label>
+      <input type="text" placeholder="Name" name="name" required>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+  
+      <label for="msg"><b>Message</b></label>
+      <input type="text" placeholder="Message" name="msg" required>
+  
+      <button type="submit" class="btn-sm">Send</button>
+      <button type="button" class="btn-sm cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+  <script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
 
 <!-- Content -->
 <div class="container-fluid">

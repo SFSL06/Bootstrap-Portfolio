@@ -1,6 +1,6 @@
 # Project Title
 
-Bootstrap-Portfolio. This is my portfolio implemented using Bootstrap.
+Bootstrap-Portfolio. This is my work portfolio implemented using Bootstrap.
 
 ## Description
 
@@ -10,22 +10,11 @@ You can use the navigation bars at the top to access the different sections and 
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+None
 
 ### Project Link
 
 https://github.com/SFSL06/Bootstrap-Portfolio
-
-
-
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
