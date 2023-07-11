@@ -16,7 +16,7 @@ None
 
 ### Project Link
 
-https://github.com/SFSL06/Bootstrap-Portfolio
+https://sfsl06.github.io/Bootstrap-Portfolio/
 
 ## Authors
 
